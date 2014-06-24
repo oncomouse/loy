@@ -3,11 +3,6 @@ layout: loy
 title: "Mina Loy Online"
 content_id: "index"
 ---
-:javascript
-	function show_about() {
-		document.getElementById('about-content').className='';
-		document.getElementById('readmore').className='hidden';
-	}
 %section#poems
 	%h1 Mina Loy <br> Online
 	%h2= link_to "\"Aphorisms on Futurism\" (1914)", "aphorisms.html"
@@ -16,13 +11,11 @@ content_id: "index"
 	%h2= link_to "<em>Songs to Joannes</em> (1917)", "songs.html"
 
 %section#about
-	
-	%h1 About This Site
-		
-	%p#readmore= link_to "Click To Read More", "javascript:void(0)", { :onclick => "show_about();" }
-	
-	#about-content.hidden
+
+	#about-content
 		:markdown
+			# About This Site
+			
 			## What Is This?
 			
 			This site offers a collection of Mina Loy's works formatted properly to preserve line structure and spacing (which were important elements in her avant-garde writing). At the moment, the site is focused on the collection of works that Janet Lyon identifies in _Manifestoes: Provocations of the Modern_ as central to Loy's critique of Italian Futurism.
@@ -36,5 +29,44 @@ content_id: "index"
 			There is not a good set of these poems online, especially one that included the proper (and crucial) punctuation and formatting that provides the poetic shape to Loy's writing.  I wanted to rectify this lack for myself while working on a [book chapter on Loy and early rumblings of transhumanism in during modernism](http://andrew.pilsch.com/#transhumanism), but, more importantly, wanted to share these editions with other fans of poetry or scholars of modernity.
 		
 			## How Was This Made?
+			
+			The poems were typeset using [Markdown](http://daringfireball.net/projects/markdown/) with some additional HTML to facilitate spacing (especially in [_Songs to Joannes_](songs.html)). The font is [Arapey](https://www.google.com/fonts/specimen/Arapey) and served as a web font from Google Fonts. Typesetting was assisted by [Typebase](https://devinhunt.github.io/typebase.css/).
+			
+			### A Note About Formatting
+
+			As much as possible, the shape of the text was considered in formatting in HTML. However, as the "Editorial Guidelines and Considerations" in [_The Lost Lunar Baedeker_ (1997)](http://www.amazon.com/The-Lost-Lunar-Baedeker-Poems/dp/0374525072) makes clear, there is no clear sense of what Mina Loy intended these texts to look like, as there are generally no surviving manuscripts or even corrected typescripts. If you are interested in this editorial problem, please consult the appendix in that volume, it very accurately captures the difficulty of this task.
+			
+			As a rule, I follow the typesetting in [_The Lost Lunar Baedeker_ (1997)](http://www.amazon.com/The-Lost-Lunar-Baedeker-Poems/dp/0374525072), sometimes perhaps to a fault. Based on their printing of "[Feminist Manifesto](feminist.html)," especially, it is difficult to discern any intended formatting decisions Loy might have made (which is unfortunate given how large a role typography plays in that essay). As such, I followed the print volume's decision to the letter, even leaving in line breaks that probably resulted from page size. I find this produces the most visually pleasing e-Text of this essay (and I ran through several iterations of the text before reaching this decision). Formatting  "[Feminist Manifesto](feminist.html)" for online reading, otherwise, would, I feel, force me to make too many personal decisions about the text and I'm not comfortable with that.
+			
+			If you feel these decisions are correct, *please* contact me (see below).
+			
+			## How Can I Contact You?
+			
+			{::nomarkdown}
+			<script>
+				// Email obfuscator script 2.1 by Tim Williams, University of Arizona
+				// Random encryption key feature by Andrew Moulden, Site Engineering Ltd
+				// This code is freeware provided these four comment lines remain intact
+				// A wizard to generate this code is at http://www.jottings.com/obfuscator/
+				function email() { coded = "OqcKuhp@OuG.MnG";
+				  key = "NoDyPtICvlfhrAgx9JR2seB0K5pV64jawYFuM8TQmqEid7OSb1GHLZUWz3cnkX";
+				  shift=coded.length;
+				  link="";
+				  for (i=0; i<coded.length; i++) {
+				    if (key.indexOf(coded.charAt(i))==-1) {
+				      ltr = coded.charAt(i);
+				      link += (ltr);
+				    }
+				    else {     
+				      ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length;
+				      link += (key.charAt(ltr));
+				    }
+				  }
+				document.write("<a href='mailto:"+link+"'>"+link+"</a>");
+				}
+			</script>
+			{:/nomarkdown}
+			
+			I am [@oncomouse on twitter](http://twitter.com/oncomouse) and my email address is <script>email()</script>. I would *love* to hear from you if you have any feedback on this project.
 			
 			
