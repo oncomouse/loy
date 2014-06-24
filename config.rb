@@ -62,7 +62,7 @@ set :images_dir, 'images'
 configure :build do
   ignore "/**/*.rb"
   # Change this to build with a different file root.	
-  #set :http_prefix, "/my/prefix/folder"
+  set :http_prefix, "/loy"
 
   # For example, change the Compass output style for deployment
   activate :minify_css
