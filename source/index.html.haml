@@ -1,0 +1,44 @@
+---
+layout: loy
+title: "Mina Loy Online"
+content_id: "index"
+---
+:javascript
+	function show_about() {
+		document.getElementById('about-content').className='';
+		document.getElementById('readmore').className='hidden';
+	}
+%section#poems
+	%h1 Mina Loy <br> Online
+	%h2= link_to "\"Aphorisms on Futurism\" (1914)", "/loy/aphorisms.html"
+	%h2= link_to "\"Feminist Manifesto\" (1914)", "/loy/feminist.html"
+	%h2= link_to "\"Parturition\" (1914)", "/loy/parturition.html"
+	%h2= link_to "<em>Songs to Joannes</em> (1917)", "/loy/songs.html"
+
+%section#about
+	
+	%h1 About This Site
+		
+	%p#readmore= link_to "Click To Read More", "javascript:void(0)", { :onclick => "show_about();" }
+	
+	#about-content.hidden
+		:markdown
+			## What Is This?
+			
+			This site offers a collection of Mina Loy's works formatted properly to preserve line structure and spacing (which were important elements in her avant-garde writing). At the moment, the site is focused on the collection of works that Janet Lyon identifies in _Manifestoes: Provocations of the Modern_ as central to Loy's critique of Italian Futurism.
+			
+			In addition to those listed above, Lyon also lists Loy's two plays, *[The Sacred Prostitute](http://canopycanopycanopy.com/contents/the_sacred_prostitute)* and *[The Pamperers](http://www.jstor.org/stable/3245808)*, as being important to this critique. These are both available online (though *The Pamperers* is only available through JSTOR which requires a now free registration).
+			
+			I may post other works to this collection in the future, but for now I am focusing on this core list of important texts.
+		
+			## Why Are You Doing This?
+			
+			For two reasons.
+			
+			First: Mina Loy is awesome. In addition to calling out F.T. Marinetti and his friends as a bunch of little boys obsessed with fast cars, her work strongly, as I argue in a [forthcoming monograph](http://andrew.pilsch.com/#transhumanism), anticipates both feminist and transhuman understandings of technological globality.
+			
+			Second (and more relevant): There is not a good set of these poems online, especially one that included the proper (and crucial) punctuation and formatting that provides the poetic shape to Loy's crystalline perspectival writing.  I wanted to rectify this lack for myself while working on a chapter on Loy and early rumblings of transhumanism in during modernism, but, more importantly, wanted to share these editions with other fans of poetry or scholars of modernity.
+		
+			## How Was This Made?
+			
+			
