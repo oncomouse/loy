@@ -16,6 +16,13 @@
 		%title= if current_page.data.has_key? 'title' then current_page.data["title"] else "Mina Loy Online" end
 		%meta( http-equiv="content-script-type" content="text/javascript" )/
 		%meta{ :name => "viewport", :content => "width=device-width, initial-scale=1.0" }/
+		
+		/ Open Graph Stuff
+		%meta{ :name => "og:url", :content => "http://oncomouse.github.io/loy/#{current_page.url}" }
+		%meta{ :name => "og:description", :content=> "Mina Loy online is a collection of poems and essays written by Mina Loy (1882-1966). Loy was an important avant-garde poet during WWI. Her challenging and experimentally formatted work has never been properly represented online, until now." }
+		%meta{ :name => "og:title", :content => if current_page.data.has_key? "title" then current_page.data["title"] else "Mina Loy Online" end }
+		%meta{ :name => "og:image", :content => "http://37.media.tumblr.com/tumblr_lwblcabQE31qzhl9eo1_500.jpg" }
+		
 		<!--[if lt IE 9]><!-->
 		= javascript_include_tag("//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js")
 		<!--<![endif]-->
