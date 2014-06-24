@@ -7,9 +7,6 @@ gem "middleman", ">= 3.1.4"
 gem "oj" if not RbConfig::CONFIG['target_os'] =~ /mswin|mingw/i
 gem "middleman-deploy"
 gem "bourbon"
-gem "neat"
-gem "susy"
-gem "breakpoint"
 gem "compass-normalize"
 gem "nokogiri"
 gem "therubyracer", "=0.12.1" if not RbConfig::CONFIG['target_os'] =~ /mswin|mingw/i
