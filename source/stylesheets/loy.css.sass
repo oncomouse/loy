@@ -42,29 +42,13 @@ article
 	text-align: right
 	margin-top: 2rem
 
-#about
-	margin:
-		top: 4 * $leading
-	h1,h2,h3,h4,h5
-		text-align: center
-	#readmore
-		text-align: center
-	.hidden
-		display: none
-	#about-content
-		@include transition(all 0.4s ease-out)
-		*
-			font:
-				family: $helvetica !important
-				weight: 300
-		h1,h2
-			margin-top: 2 * $leading
-		em,strong
-			font-size: 1rem
-	a
-		color: red
-		&:hover
-			color: adjust-hue(#F00, 35deg)
+.dashes
+	font:
+		family: Helvetica, Arial, sans-serif
+		weight: 300
+		size: 1.1em
+	line-height: 0.9
+	letter-spacing: 1px
 		
 
 /* Per page CSS Code: */
@@ -86,11 +70,34 @@ article
 			&:last-child
 				&:after
 					display: none
+	#about
+		margin:
+			top: 4 * $leading
+		h1,h2,h3,h4,h5
+			text-align: center
+		#readmore
+			text-align: center
+		.hidden
+			display: none
+		#about-content
+			@include transition(all 0.4s ease-out)
+			*
+				font:
+					family: $helvetica !important
+					weight: 300
+			h1,h2
+				margin-top: 2 * $leading
+			em,strong
+				font-size: 1rem
+		a
+			color: red
+			&:hover
+				color: adjust-hue(#F00, 35deg)
 	
 #aphorisms
 	width: 510px
 #feminist
-	width: 573px
+	width: 580px
 	h1
 		text:
 			decoration: none
@@ -123,13 +130,6 @@ article
 	.about
 		h2
 			text-align: inherit
-	.dashes
-		font:
-			family: Helvetica, Arial, sans-serif
-			weight: 300
-			size: 1.1em
-		line-height: 0.9
-		letter-spacing: 1px
 	p
 		span
 			display: inline-block
