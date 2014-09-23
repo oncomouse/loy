@@ -29,10 +29,9 @@
 		= stylesheet_link_tag("http://fonts.googleapis.com/css?family=Arapey", :media => "all", :rel => "stylesheet" )
 		= stylesheet_link_tag("loy.css", :media => "all", :rel => "stylesheet" )
 		
-	%body
-		- if current_page.data.has_key? 'content_id' then id = current_page.data['content_id'] else id = nil end
-		%article{ :id => id }
-			- if id == "index" 
+	%body{ :class=>"#{page_classes}"}
+		%article
+			- if page_classes.include? "index" 
 				= yield
 			- else 
 				%section#poem
