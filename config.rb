@@ -16,10 +16,7 @@ compass_config do |config|
 #   config.output_style = :compact
 end
 require "bourbon"
-require "neat"
 require "compass-normalize"
-require "susy"
-require "breakpoint"
 ###
 # Page options, layouts, aliases and proxies
 ###
