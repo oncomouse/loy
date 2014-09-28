@@ -112,13 +112,13 @@ The wind stuffs the scum of the white street
 Into my lungs and my nostrils  
 Exhilarated birds  
 Prolonging flight into the night  
-Never reaching <span class="dashes">— — — — — — —</span>
+Never reaching **— — — — — — —**{:.dashes}
 
 ## VIII
 
 I am the jealous store-house of the candle-ends  
 That lit your adolescent learning  
-<span class="dashes">— — — — — — — — — —</span>  
+**— — — — — — — — — —**{:.dashes}  
 Behind God's eyes  
 There might  
 Be other lights
@@ -203,7 +203,7 @@ Disorb inviolate egos
 
 Where two or three are welded together  
 They shall become god  
-<span class="dashes">— — — — — — —</span>  
+**— — — — — — —**{:.dashes}  
 Oh that's right  
 Keep away from me&nbsp;&nbsp;&nbsp;&nbsp;Please give me a push  
 Don't let me understand you&nbsp;&nbsp;&nbsp;&nbsp;Don't realise me
@@ -212,7 +212,7 @@ Or we might tumble together
 Depersonalized  
 Identical  
 Into the terrific Nirvana  
-Me you<span class="dashes">&nbsp;&nbsp;—&nbsp;&nbsp;</span>you<span class="dashes">&nbsp;&nbsp;—&nbsp;&nbsp;</span>me 
+Me you**&nbsp;&nbsp;—&nbsp;&nbsp;**{:.dashes}you**&nbsp;&nbsp;—&nbsp;&nbsp;**{:.dashes}me 
 
 ## XIV
 
@@ -310,7 +310,7 @@ You too
 Had something  
 At that time  
 Of a green-lit glow-worm  
-<span class="dashes">— — — — — — —</span>  
+**— — — — — — —**{:.dashes}  
 Yet slowly drenched  
 To raylessness  
 In rain
@@ -324,7 +324,7 @@ To flutter whom she may concern
 
 I store up nights against you  
 Heavy with shut-flower's nightmares  
-<span class="dashes">— — — — — — — — — —</span>  
+**— — — — — — — — — —**{:.dashes}  
 Stack noons  
 Curled to the solitaire  
 Core of the  
@@ -378,7 +378,7 @@ Licking the Arno
 The little rosy  
 Tongue of Dawn  
 Interferes with our eyelashes  
-<span class="dashes">— — — — — — — —</span>  
+**— — — — — — — —**{:.dashes}  
 We twiddle to it  
 Round and round  
 Faster  
@@ -403,7 +403,7 @@ From slit eyes
 
 We sidle up  
 To Nature  
-<span class="dashes">— — —</span> that irate pornographist
+**— — —**{:.dashes} that irate pornographist
 
 ## XXVII
 
@@ -417,7 +417,7 @@ Immodifiable plastic
 The contents  
 Of our ephemeral conjunction  
 In aloofness from Much  
-Flowed to approachment of <span class="dashes">— — — —</span>  
+Flowed to approachment of **— — — —**{:.dashes}  
 NOTHING  
 There was a man and a woman  
 In the way  
@@ -455,7 +455,7 @@ Of your New Day
 Shuts down on me
 
 Unthinkable&nbsp;&nbsp;&nbsp;&nbsp;that white over there  
-<span class="dashes">— — —</span> Is smoke from your house 
+**— — —**{:.dashes} Is smoke from your house 
 
 ## XXIX
 
@@ -503,17 +503,17 @@ In some
 Prenatal plagiarism  
 Foetal buffoons  
 Caught tricks  
-<span class="dashes">— — — — —</span>
+**— — — — —**{:.dashes}
 
 From archetypal pantomime  
 Stringing emotions  
 Looped aloft  
-<span class="dashes">— — — —</span>
+**— — — —**{:.dashes}
 
 For the blind eyes  
 That Nature knows us with  
 And the most of Nature&nbsp;&nbsp;&nbsp;&nbsp;is green  
-<span class="dashes">— — — — — — — — — —</span>
+**— — — — — — — — — —**{:.dashes}
 
 ## XXXI
 
@@ -539,19 +539,19 @@ To the unbroken fall
 
 The moon is cold  
 Joannes  
-Where the Mediterranean <span class="dashes">— — — — —</span>
+Where the Mediterranean **— — — — —**{:.dashes}
 
 ## XXXIII
 
-The prig of passion <span class="dashes">— — — —</span>  
+The prig of passion **— — — —**{:.dashes}  
 To your professorial paucity 
 
 Proto-plasm was raving mad  
-Evolving us <span class="dashes">— — —</span>
+Evolving us **— — —**{:.dashes}
 
 ## XXXIV 
 
-Love <span class="dashes">— — —</span> the preeminent literateur
+Love **— — —**{:.dashes} the preeminent literateur
 
 ## [Mina Loy (1917)](index.html)
 {:.about}
