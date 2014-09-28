@@ -1,8 +1,6 @@
 ---
-layout: loy
 title: Mina Loy, "Aphorisms on Futurism"
 year: 1914
-content_id: aphorisms
 ---
 # Aphorisms on Futurism
 

@@ -1,6 +1,4 @@
 ---
-layout: loy
-content_id: feminist
 title: Mina Loy, "Feminist Manifesto"
 year: 1914
 ---

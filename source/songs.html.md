@@ -1,8 +1,6 @@
 ---
-layout: loy
 title: Mina Loy, Songs to Joannes
 year: 1917
-content_id: songs
 ---
 # Songs to Joannes
 

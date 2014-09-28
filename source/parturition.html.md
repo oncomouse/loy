@@ -1,5 +1,4 @@
 ---
-content_id: parturition
 title: Mina Loy, "Parturition"
 year: 1914
 ---
