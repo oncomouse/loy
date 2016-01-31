@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem "compass", ">=1.0" #ensure Compass 1.0
 gem "sass", ">=3.3.0"
 gem "builder", ">=3.0"
-gem "middleman", ">= 3.1.4"
+gem "middleman", "~>3"
 gem "middleman-deploy"
 gem "bourbon"
 gem "compass-normalize"
