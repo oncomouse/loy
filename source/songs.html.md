@@ -48,7 +48,7 @@ A God's door-mat
 We might have coupled  
 In the bed-ridden monopoly of a moment  
 Or broken flesh with one another  
-A t the profane communion table  
+At the profane communion table  
 Where wine is spill't on promiscuous lips  
 We might have given birth to a butterfly  
 With the daily-news  
